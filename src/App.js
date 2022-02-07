@@ -1,5 +1,6 @@
 import './App.css';
 import Sidebar from './components/sidebar/SideBar';
+import NavBar from './components/navbar/NavBar'
 
 import { useState } from 'react';
 
@@ -12,7 +13,8 @@ const  App = () => {
     setSidebarOpen(false);
   };  
   return (
-    <div className='app'>
+    <div className='container'>
+      <NavBar sidebarOpen={sidebarOpen} openSidebar={openSidebar}/>
       <Sidebar sidebarOpen={sidebarOpen} closeSideBar={closeSideBar}/>
     </div>
   );

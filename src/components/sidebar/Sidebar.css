@@ -2,8 +2,10 @@
     background: #020509;
     grid-area: sidebar;
     overflow-y: auto;
+    width: 35vh;
     padding: 20px;
     transition: all .5s;
+    --webkit-transition: all .5s;
 }
 
 .sidebar-title{
@@ -89,6 +91,10 @@
     color: #e65061;
     font-weight: 700;
     text-transform: uppercase;
+}
+.sidebar-logout i{
+    margin-right: 10px;
+    font-size: 18px;
 }
 
 .sidebar-reesponsive{
