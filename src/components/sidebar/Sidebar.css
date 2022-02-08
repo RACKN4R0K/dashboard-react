@@ -1,7 +1,6 @@
 #sidebar{
     background: #020509;
     grid-area: sidebar;
-    overflow-y: auto;
     width: 35vh;
     padding: 20px;
     transition: all .5s;
